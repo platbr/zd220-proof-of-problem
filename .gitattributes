@@ -1,0 +1,10 @@
+bundle filter=lfs diff=lfs merge=lfs -text
+lib filter=lfs diff=lfs merge=lfs -text
+suporte filter=lfs diff=lfs merge=lfs -text
+builder/cached/staging/baladapp_atualizador.exe filter=lfs diff=lfs merge=lfs -text
+builder/cached/production/baladapp_atualizador.exe filter=lfs diff=lfs merge=lfs -text
+builder/cached/production-test/baladapp_atualizador.exe filter=lfs diff=lfs merge=lfs -tex
+builder/cached/Windows64/production-test/baladapp_atualizador.exe filter=lfs diff=lfs merge=lfs -text
+builder/cached/Windows32/ filter=lfs diff=lfs merge=lfs -text
+builder/cached/Windows64 filter=lfs diff=lfs merge=lfs -text
+builder/cached/ filter=lfs diff=lfs merge=lfs -text

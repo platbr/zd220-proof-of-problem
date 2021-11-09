@@ -1,0 +1,16 @@
+target/
+builder/*.nsi
+builder/output
+builder/_tmp*
+after_update/out
+after_update/build
+*.o
+.DS_Store
+*.log
+log/
+.m2
+*.db
+data/
+tmp/
+.idea
+workdir
