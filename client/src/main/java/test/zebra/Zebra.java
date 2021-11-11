@@ -75,7 +75,7 @@ public class Zebra {
         step(new ZerbraTimeout(500,5000,4000), statusResponseValidator);
         step(new ZerbraTimeout(500,5000,8000), statusResponseValidator);
         step(new ZerbraTimeout(500,5000,16000), statusResponseValidator);
-        step(new ZerbraTimeout(500,5000,1), statusResponseValidator);
+        step(new ZerbraTimeout(500,5000,1), null);
         step(new ZerbraTimeout(500,5000,125), null);
         step(new ZerbraTimeout(500,5000,250), null);
         step(new ZerbraTimeout(500,5000,500), null);
