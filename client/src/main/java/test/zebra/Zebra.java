@@ -12,7 +12,6 @@ import java.time.Instant;
 public class Zebra {
     private final String COMMAND_TERMINATOR = String.valueOf(0x03);
     private DiscoveredUsbPrinter discoveredUsbPrinter;
-    private int usedBufferSize = 0;
     private Connection connection;
 
     public Zebra(DiscoveredUsbPrinter discoveredUsbPrinter) {
