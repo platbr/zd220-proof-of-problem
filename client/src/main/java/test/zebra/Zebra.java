@@ -42,6 +42,7 @@ public class Zebra {
     private String sendCommandAndGetOutput(String command, ResponseValidator responseValidator, ZerbraTimeout zerbraTimeout) throws ConnectionException {
         String result;
         Instant start = Instant.now();
+        System.out.println("------------------------------------------------------");
         if (responseValidator == null) {
             System.out.println("Using CommandTerminator - " + zerbraTimeout.toString());
             result = new String(getConnection(zerbraTimeout).sendAndWaitForResponse(command.getBytes(), zerbraTimeout.getInitialResponseTimeout() , zerbraTimeout.getResponseCompletionTimeout(), COMMAND_TERMINATOR));
